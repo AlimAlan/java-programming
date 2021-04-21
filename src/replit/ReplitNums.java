@@ -1,0 +1,25 @@
+package replit;
+import java.util.*;
+
+/**
+ * Given an int array num of any length, print a new array of its first 2 elements.
+ * If the array is smaller than length 2, use whatever elements are present.
+ */
+public class ReplitNums {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int size = scan.nextInt();
+        int[] num = new int[size];
+        for(int i =0; i < size; i++) {
+            num[i] = scan.nextInt();
+        }
+        int []newArr;
+        if(size>=2){
+            newArr=new int[]{num[0],num[1]};
+        }else{
+            newArr=new int[]{num[0]};
+        }
+        System.out.println(Arrays.toString(newArr));
+
+    }
+}
