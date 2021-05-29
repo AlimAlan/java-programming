@@ -36,6 +36,10 @@ public class CybertekGroups {
         }
 
 
+        //remove member from group1
+        group1.removeMember("Masha");
+        group1.removeMember("Daud");
+        System.out.println(group1);
 
     }
 
