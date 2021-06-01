@@ -11,6 +11,7 @@ public class FirstMethod {
         }
     }
     public static void displayMessage(){         //first custom reusable method
+
         System.out.println("Hello B22 Friends");
     }
 }
