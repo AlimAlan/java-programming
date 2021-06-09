@@ -10,15 +10,22 @@ returns "one three"
  */
 public class CleanString {
     public static void main(String[] args) {
-        String badWord="one, two,three,two";
-        String cleanWord="";
+        String text="one two three";
+        String badWord="two";
 
-        for(int i=0;i<badWord.length();i++){
-            if(i==i+1){
-                cleanWord+=i;
-                System.out.println();
-            }
-        }
+
+       String [] a=text.split(badWord);
+        System.out.println(Arrays.toString(a));
+        String cleanWord=String.join("",a);
+        System.out.println(cleanWord);
+
+
+//        for (String each :a ){
+//            cleanWord+=each;
+//
+//        }
+      //  System.out.println(cleanWord);
+
 
 
     }

@@ -11,7 +11,7 @@ public class UniqueWords {
                     counter++;
                 }
             }
-            if(counter==1){
+            if(counter==1){          //
                 System.out.println(word[i]);
             }
         }
