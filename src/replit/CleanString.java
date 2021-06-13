@@ -13,20 +13,29 @@ public class CleanString {
         String text="one two three";
         String badWord="two";
 
+        String[]goodWord=text.split(" ");
+        System.out.println(Arrays.toString(goodWord));
+       for (int i=0;i<goodWord.length;i++){
+          if(goodWord.equals(badWord)){
 
-       String [] a=text.split(badWord);
-        System.out.println(Arrays.toString(a));
-        String cleanWord=String.join("",a);
-        System.out.println(cleanWord);
+           }
 
-
-//        for (String each :a ){
-//            cleanWord+=each;
-//
-//        }
-      //  System.out.println(cleanWord);
+        }
 
 
+//        for (int i=0; i<goodWord.length;i++){
+//            if(!goodWord.equals(badWord)){
+//                System.out.println(Arrays.toString(goodWord));
+            }
+        }
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
