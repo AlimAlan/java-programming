@@ -8,7 +8,7 @@ public class Admin extends GeneralUser{
 
     }
     public Admin(String name, int ID){
-        super("Admin",name, ID);    //public User
+        //super("Admin",name, ID);    //public User
         System.out.println("Admin class 2 args constructor");
 
     }
