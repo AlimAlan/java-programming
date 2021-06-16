@@ -17,10 +17,10 @@ public class PalindromeNumber {
 
             int lastDigit = temp % 10; // 3
             reverse = (reverse * 10) + lastDigit;
-            temp /= 10;
+            temp /= 10;         //
             // System.out.println(reverse);
         }
-        return reverse == number;
+        return reverse == number;                //reverse
     }
 
 
